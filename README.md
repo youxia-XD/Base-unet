@@ -5,8 +5,9 @@
     ├── 01_Base-Unet/          # 基础 U-Net 模型（基线）
     ├── 02_Retina-Unet/    # 纯 Retina-Unet 模型（多尺度融合）
     ├── 03_Attention-Unet/     # 带软注意力门控的 Attention-Unet（最终改进）
-    ├── DRIVE/                 # DRIVE 数据集（训练/测试图像与金标准）
+    ├── DRIVE/              # DRIVE 数据集（训练/测试图像与金标准） 【分为三个part 需将三part归到一个文档内】
     ├── lib/                   # 公共工具库（数据提取、可视化、辅助函数）
+    ├── stare/                 # 区别于DRIVE的补充用数据集，可用于重复实验
     └── README.md              # 项目说明文档
     
 ## 数据集
